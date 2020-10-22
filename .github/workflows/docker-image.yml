@@ -24,4 +24,4 @@ jobs:
         docker build . --file Dockerfile --tag samndb0x/github:latest
         docker login -u $USER -p $PASS
         
-        docker push samndb0x/github:latest
+        docker push lokesh904/github:latest
